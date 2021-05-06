@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.nav{
+    height: 40px;
+    background-color: #e3e3e3;
+    width: 100%;
+    
+}
+
+.nav ul{
+    padding: 3px 0 0 10px;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: #000;
+}
+
+.nav ul li a:hover{
+    color: #c60021;
+}
+.searchBar{
+    width: 70%;
+    border-radius: 0px 3px 3px 0;
+    border: 1px solid #ececec;
+    padding: 5px;
+    border-right: none;
+    border-left: none;
+}
+
+.searchBar:hover{
+    background-color: #f6f6f8;
+}
+
+.search{
+    background-color: #e3e3e3;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #ececec;
+    border-radius: 3px 0px 0px 3px;
+    border-right: none;
+    color: #000;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 30px 2px 2px;
+    border: none;
+}
+.search a{ color: #000;}
+.search a:hover{text-decoration: none; color: #000;}
+
+.searchIcon{
+    width: 70px;
+    height: 36px;
+    border-radius: 0px 3px 3px 0;
+    border: 1px solid #ececec;
+    text-align: center;
+    padding-top: 10px;
+    border-left: none;
+    color: #b4b2b2;
+}
+
+.register{
+    margin: 0 auto;
+}
+
+.registerBtn{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+
+.adminNav{
+    width: 100%;
+    height: 70px;
+    background-color: #e3e3e3;
+    text-align: justify;
+    padding: 20px;
+}
+
+.adminMenu li a, .adminMenu li a:hover, .adminMenu li{
+    color: #000 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.adminMenu ul{
+    display: none;
+    padding: 10px 0 0 10px;
+    list-style: none;
+}
+
+.adminMenu ul li{
+    padding: 10px;
+    width: 100%;
+    height: 44px;
+}
+
+.adminMenu ul li:hover{
+    background-color: #e3e3e3;
+}
+
+.dashPanel{
+    height: 250px;
+    background-color: #e3e3e3;
+    width: 100%;
+    border-radius: 3px;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+.dashPanel a{
+    color: #000;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.dashPanel .fas{
+    color: #000;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.dashPanel a:hover{
+    text-decoration: none;
+    color: #c60021;
+}
+
+.category{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.divCat table tr td a:hover{
+    text-decoration: none;
+}
+
+
+
+.ad-header{
+    height: 40px;
+    width: 100%;
+    text-align: justify;
+    font-size: 22px;
+    color: #c60021;
+    background-color: #e3e3e3;
+    padding: 4px 0 0 7px; 
+    margin: 10px 0 7px 0;  
+}
+
+.ad{
+    height: 100%;
+    text-align: center;  
+}
+
+.ad img{
+    height: 150px;
+    width: 100%px;
+}
+
+.ad .ad-title{
+    font-size: 11px;
+    color: #000;
+    text-align: center;
+}
+
+.ad .ad-price{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ad .ad-address{
+    font-size: 11px;
+    color: #000;
+    text-align: center;
+}
+
+.other-ads{
+    border: 1px solid #e3e3e3;
+    height: 700px;
+    margin-top: 10px;
+}
+
+.page-footer{
+    margin-top: 20px;
+    background-color: #e3e3e3;
+    height: 300px;
+    width: 100%;
+}
+
+.red{
+    color: red;
+}
+
+.accountMenuHeader{
+    background-color: #e3e3e3;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 5px;
+    border-bottom: 2px black solid;
+    padding-left: 6px;
+}
+
+.accountMenu{
+    background-color: #e3e3e3;
+}
+
+.accountMenu ul{
+    list-style: none;
+    padding: 5px;
+}
+
+.accountMenu ul li{
+    padding: 5px;
+    color: #000;
+}
+
+.accountMenu ul li a{
+    padding: 7px;
+    color: #000;
+    text-decoration: none;
+}
+
+.accountMenu ul li a:hover{
+    color: #c60021;
+}
+
+.adBody{
+    background-color: #e3e3e3;
+}
+
+.adBody ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.adBody ul li{
+    padding: 5px;
+    text-align: right;
+}
+
+.subCatSelect{
+    display: inline-block;
+    width: 80%;
+    margin-right: 10px;
+}
+
+.mainCat{
+    /* background-color: #e3e3e3; */
+    display:none;
+}
+
+.mainCat ul{
+    list-style: none;
+    padding: 15px;
+}
+
+.mainCat ul li{
+    padding: 7px;
+}
+
+.mainCat ul li:hover{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.subCat{
+    /* background-color: #e3e3e3; */
+    display:none;
+}
+
+.subCat ul{
+    list-style: none;
+    padding: 15px;
+}
+
+.subCat ul li{
+    padding: 7px;
+}
+
+.subCat ul li:hover{
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+}
+
+.next{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.adv{
+    /* height: 100%; */
+    margin-left: 5px;
+}
+
+.adv-header{
+    padding-left: 30px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0px;
+    color: #c60021;
+    background-color: #e3e3e3;
+}
+
+.adv-body{background-color: #e3e3e3;}
+
+.adv-body table tr td:nth-child(even){
+    padding: 10px;
+}
+
+.adv-body table tr td:nth-child(odd){
+    float:right;
+    padding: 10px;
+}
+
+.adv-body table tr td input[type=text]{
+    width: 80%;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.adv-body table tr td textarea{
+    width: 80%;
+    height: 80px;
+    resize: none;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.adPost{
+    background-color: blue;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.adv-body table tr td select{
+    width: 50%;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.all-ad-body{
+    background-color: #e3e3e3;
+    border-bottom: 1px solid #000;
+}
+
+.newAd{
+    background-color:#f5f5f5;
+}
+
+.all-ad-body img{
+    margin: 12px;
+}
+.ad-btns{
+    margin-bottom: 15px;
+}
+.ad-btns a{
+    margin: 0 10px 15px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.ad-btns a:hover{
+    color: #c60021;
+    text-decoration: none;
+
+}
+
+.single-ad-body{
+    background-color: #e3e3e3;
+}
+
+.single-ad-body p{
+   margin: 10px 0 10px 10px; 
+}
+
+.single-ad-body h3{
+    margin: 15px 0 10px 15px;
+}
+
+.single-ad-edit-body{
+    background-color: #e3e3e3;
+}
+
+.single-ad-edit-body p{
+   margin: 10px 0 10px 10px; 
+}
+
+.single-ad-edit-body h3{
+    margin: 15px 0 10px 15px;
+}
+.single-ad-body table{ margin: 10px 0 40px 0px; table-layout: fixed; width: 100%;}
+
+.single-ad-edit-body table{ margin: 10px 0 0px 0px; table-layout: fixed; width: 100%;}
+
+.single-ad-body table tr td{  
+    padding: 10px;
+    border: 1px #000 solid; 
+    overflow: hidden;
+    text-overflow: inherit;
+    /* white-space: nowrap; */
+}
+
+.single-ad-edit-body table tr td{  
+    padding: 10px;
+    border: 1px #000 solid; 
+    overflow: hidden;
+    text-overflow: inherit;
+    /* white-space: nowrap; */
+}
+
+.single-ad-edit-body table tr td input{ width: 220px; padding: 5px; border: none; border-radius: 3px;}
+
+.single-ad-header{
+    height: 35px;
+    padding: 3px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 28px;
+    width: 100%;
+    background-color: #c60021;
+    color: #fff;
+}
+
+.single-ad-image{
+    height: 300px;
+    width: 100%;
+    margin-top: 200px;
+    padding: 15px; 
+    border: none;
+}
+
+.single-ad-image img{
+    border: none;
+    border-radius: 10px;
+}
+
+.single-ad-image img{ height: 100%; width: 100%;}
+
+.updateAd{
+    margin: 10px;
+}
+
+.my-account-home{    
+    background-color: #e3e3e3;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.msg{
+    background-color: #e3e3e3;
+    height: 100%;
+}
+
+.msg-header{
+height: 48px;
+background-color:#c60021;
+padding: 5px;
+color: #fff;
+font-size: 1.5em;
+font-weight: 600;
+}
+
+.msg-title{
+    background-color: #b4b2b2;
+    color: #fff;
+    height: 43px;
+    padding: 10px 3px;
+    font-size: 1em;
+}
+
+.msg-body{
+    height: 100%;
+    background-color: #ececec;
+}
+
+.user-profile{
+    display: none;
+    background-color:#e3e3e3;
+    height: 100%;
+}
+
+.user-profile table tr th{
+    text-align: right;
+}
+
+#profile-edit-div{
+    display: none;
+    background-color: #e3e3e3;
+    height: 100%;
+}
+
+#profile-edit-div table tbody tr th{
+    text-align: right;
+}
+
+#profile-edit-div input{
+    width: 450px;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    padding: 5px;
+}
+/* .ad-label{background-color: #e3e3e3;}
+
+.ad-label ul{
+    padding: 5px 0 0 10px;
+    list-style: none;
+}
+
+.ad-label ul li{
+    padding: 11px;
+}
+
+.ad-control{
+    background-color: #e3e3e3;
+}
+
+.ad-control ul{
+    padding: 5px 0 0 10px;
+    list-style: none;
+}
+
+.ad-control ul li{
+    padding: 10px;
+}
+
+.ad-control ul li input[type=text]{
+    width: 80%;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.ad-control ul li textarea{
+    width: 80%;
+    height: 80px;
+    resize: none;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.ad-control ul li select{
+    width: 50%;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.ad-control .adPost{
+    margin-left: 15px;
+    background-color: #b4b2b2;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+} */
+
+
+
+
+
+
+
+
+
